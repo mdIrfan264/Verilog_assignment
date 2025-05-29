@@ -1,6 +1,6 @@
 module q9();
   reg [7:0] data;
- assign data = 8'b10101100
+ assign data = 8'b10101100;
  initial begin
    $display("data = %b",data);
    
