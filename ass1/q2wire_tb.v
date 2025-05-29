@@ -2,7 +2,7 @@ module q2wire_tb;
   reg a,b;
   wire y;
   
-  hi dut(.a(a),.b(b),.y(y));
+  q2wire dut(.a(a),.b(b),.y(y));
   
   initial begin
     $monitor("a = %b , b = %b , y = %b",a,b,y);
